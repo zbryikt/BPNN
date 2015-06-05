@@ -19,7 +19,7 @@ generator = do
       u[h - i - 1] = tmp
     u
 
-bpnn = new BPNN size = 5
+bpnn = new BPNN 3, size = 5
 iter = 500000
 count = 0
 while count < iter
